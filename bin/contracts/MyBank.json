@@ -1,0 +1,581 @@
+{
+    "contractName": "MyBank",
+    "abi": [
+        {
+            "inputs": [],
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "int256",
+                    "name": "amount",
+                    "type": "int256"
+                }
+            ],
+            "name": "depositeMyBalance",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "getBalanceValue",
+            "outputs": [
+                {
+                    "internalType": "int256",
+                    "name": "",
+                    "type": "int256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "int256",
+                    "name": "amount",
+                    "type": "int256"
+                }
+            ],
+            "name": "withdrawMyBalance",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.15+commit.e14f2714\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[{\"internalType\":\"int256\",\"name\":\"amount\",\"type\":\"int256\"}],\"name\":\"depositeMyBalance\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getBalanceValue\",\"outputs\":[{\"internalType\":\"int256\",\"name\":\"\",\"type\":\"int256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"int256\",\"name\":\"amount\",\"type\":\"int256\"}],\"name\":\"withdrawMyBalance\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/truffle-project/contracts/MyBank.sol\":\"MyBank\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/truffle-project/contracts/MyBank.sol\":{\"keccak256\":\"0x2407da84612a2ebf64db11d23b85d21cdbf555e6531ba8e0bbe4a7636c5cdb80\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ffde9120a5f3192ec429b0c0a7c5d528d82f69adf618dbfd1c3d26a9f51221f6\",\"dweb:/ipfs/QmTWwsssJjWiWJStes6KYh6w9YCeDgRJrZm5gPBKVtbgxH\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b50600160005561018a806100256000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c80633087e41214610046578063813784481461005b578063cf86b99f14610070575b600080fd5b6100596100543660046100a5565b610083565b005b60005460405190815260200160405180910390f35b61005961007e3660046100a5565b610097565b8060005461009191906100d4565b60005550565b806000546100919190610113565b6000602082840312156100b757600080fd5b5035919050565b634e487b7160e01b600052601160045260246000fd5b60008083128015600160ff1b8501841216156100f2576100f26100be565b6001600160ff1b038401831381161561010d5761010d6100be565b50500390565b600080821280156001600160ff1b0384900385131615610135576101356100be565b600160ff1b839003841281161561014e5761014e6100be565b5050019056fea2646970667358221220cd416bf73b0ddd22035d4dbe7ae4d040e78e379c0c2c9220b123782c0217bbe564736f6c634300080f0033",
+    "deployedBytecode": "608060405234801561001057600080fd5b50600436106100415760003560e01c80633087e41214610046578063813784481461005b578063cf86b99f14610070575b600080fd5b6100596100543660046100a5565b610083565b005b60005460405190815260200160405180910390f35b61005961007e3660046100a5565b610097565b8060005461009191906100d4565b60005550565b806000546100919190610113565b6000602082840312156100b757600080fd5b5035919050565b634e487b7160e01b600052601160045260246000fd5b60008083128015600160ff1b8501841216156100f2576100f26100be565b6001600160ff1b038401831381161561010d5761010d6100be565b50500390565b600080821280156001600160ff1b0384900385131615610135576101356100be565b600160ff1b839003841281161561014e5761014e6100be565b5050019056fea2646970667358221220cd416bf73b0ddd22035d4dbe7ae4d040e78e379c0c2c9220b123782c0217bbe564736f6c634300080f0033",
+    "sourceMap": "134:623:1:-:0;;;252:66;;;;;;;;;-1:-1:-1;313:1:1;298:12;:16;134:623;;;;;;",
+    "deployedSourceMap": "134:623:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;564:92;;;;;;:::i;:::-;;:::i;:::-;;437:123;484:3;544:12;437:123;;342:25:2;;;330:2;315:18;437:123:1;;;;;;;660:92;;;;;;:::i;:::-;;:::i;564:::-;644:6;629:12;;:21;;;;:::i;:::-;614:12;:36;-1:-1:-1;564:92:1:o;660:::-;742:6;727:12;;:21;;;;:::i;14:179:2:-;72:6;125:2;113:9;104:7;100:23;96:32;93:52;;;141:1;138;131:12;93:52;-1:-1:-1;164:23:2;;14:179;-1:-1:-1;14:179:2:o;378:127::-;439:10;434:3;430:20;427:1;420:31;470:4;467:1;460:15;494:4;491:1;484:15;510:267;549:4;578:9;;;603:10;;-1:-1:-1;;;622:19:2;;615:27;;599:44;596:70;;;646:18;;:::i;:::-;-1:-1:-1;;;;;693:27:2;;686:35;;678:44;;675:70;;;725:18;;:::i;:::-;-1:-1:-1;;762:9:2;;510:267::o;782:265::-;821:3;849:9;;;874:10;;-1:-1:-1;;;;;893:27:2;;;886:35;;870:52;867:78;;;925:18;;:::i;:::-;-1:-1:-1;;;972:19:2;;;965:27;;957:36;;954:62;;;996:18;;:::i;:::-;-1:-1:-1;;1032:9:2;;782:265::o",
+    "sourcePath": "c:/truffle-project/contracts/MyBank.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.15+commit.e14f2714"
+    },
+    "ast": {
+        "absolutePath": "c:/truffle-project/contracts/MyBank.sol",
+        "exportedSymbols": {
+            "MyBank": [
+                77
+            ]
+        },
+        "id": 78,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 34,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.4",
+                    ".22",
+                    "<",
+                    "0.9",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "33:32:1"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "MyBank",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 77,
+                "linearizedBaseContracts": [
+                    77
+                ],
+                "name": "MyBank",
+                "nameLocation": "143:6:1",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "id": 36,
+                        "mutability": "mutable",
+                        "name": "balanceValue",
+                        "nameLocation": "212:12:1",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 77,
+                        "src": "208:16:1",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_int256",
+                            "typeString": "int256"
+                        },
+                        "typeName": {
+                            "id": 35,
+                            "name": "int",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "208:3:1",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_int256",
+                                "typeString": "int256"
+                            }
+                        },
+                        "visibility": "internal"
+                    },
+                    {
+                        "body": {
+                            "id": 43,
+                            "nodeType": "Block",
+                            "src": "268:50:1",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 41,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 39,
+                                            "name": "balanceValue",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 36,
+                                            "src": "298:12:1",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_int256",
+                                                "typeString": "int256"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "hexValue": "31",
+                                            "id": 40,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": true,
+                                            "kind": "number",
+                                            "lValueRequested": false,
+                                            "nodeType": "Literal",
+                                            "src": "313:1:1",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_rational_1_by_1",
+                                                "typeString": "int_const 1"
+                                            },
+                                            "value": "1"
+                                        },
+                                        "src": "298:16:1",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_int256",
+                                            "typeString": "int256"
+                                        }
+                                    },
+                                    "id": 42,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "298:16:1"
+                                }
+                            ]
+                        },
+                        "id": 44,
+                        "implemented": true,
+                        "kind": "constructor",
+                        "modifiers": [],
+                        "name": "",
+                        "nameLocation": "-1:-1:-1",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 37,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "263:2:1"
+                        },
+                        "returnParameters": {
+                            "id": 38,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "268:0:1"
+                        },
+                        "scope": 77,
+                        "src": "252:66:1",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 51,
+                            "nodeType": "Block",
+                            "src": "490:70:1",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 49,
+                                        "name": "balanceValue",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 36,
+                                        "src": "544:12:1",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_int256",
+                                            "typeString": "int256"
+                                        }
+                                    },
+                                    "functionReturnParameters": 48,
+                                    "id": 50,
+                                    "nodeType": "Return",
+                                    "src": "537:19:1"
+                                }
+                            ]
+                        },
+                        "functionSelector": "81378448",
+                        "id": 52,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "getBalanceValue",
+                        "nameLocation": "446:15:1",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 45,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "461:2:1"
+                        },
+                        "returnParameters": {
+                            "id": 48,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 47,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 52,
+                                    "src": "484:3:1",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_int256",
+                                        "typeString": "int256"
+                                    },
+                                    "typeName": {
+                                        "id": 46,
+                                        "name": "int",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "484:3:1",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_int256",
+                                            "typeString": "int256"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "483:5:1"
+                        },
+                        "scope": 77,
+                        "src": "437:123:1",
+                        "stateMutability": "view",
+                        "virtual": false,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 63,
+                            "nodeType": "Block",
+                            "src": "611:45:1",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 61,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 57,
+                                            "name": "balanceValue",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 36,
+                                            "src": "614:12:1",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_int256",
+                                                "typeString": "int256"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "commonType": {
+                                                "typeIdentifier": "t_int256",
+                                                "typeString": "int256"
+                                            },
+                                            "id": 60,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "leftExpression": {
+                                                "id": 58,
+                                                "name": "balanceValue",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 36,
+                                                "src": "629:12:1",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_int256",
+                                                    "typeString": "int256"
+                                                }
+                                            },
+                                            "nodeType": "BinaryOperation",
+                                            "operator": "-",
+                                            "rightExpression": {
+                                                "id": 59,
+                                                "name": "amount",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 54,
+                                                "src": "644:6:1",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_int256",
+                                                    "typeString": "int256"
+                                                }
+                                            },
+                                            "src": "629:21:1",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_int256",
+                                                "typeString": "int256"
+                                            }
+                                        },
+                                        "src": "614:36:1",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_int256",
+                                            "typeString": "int256"
+                                        }
+                                    },
+                                    "id": 62,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "614:36:1"
+                                }
+                            ]
+                        },
+                        "functionSelector": "3087e412",
+                        "id": 64,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "withdrawMyBalance",
+                        "nameLocation": "573:17:1",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 55,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 54,
+                                    "mutability": "mutable",
+                                    "name": "amount",
+                                    "nameLocation": "595:6:1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 64,
+                                    "src": "591:10:1",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_int256",
+                                        "typeString": "int256"
+                                    },
+                                    "typeName": {
+                                        "id": 53,
+                                        "name": "int",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "591:3:1",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_int256",
+                                            "typeString": "int256"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "590:12:1"
+                        },
+                        "returnParameters": {
+                            "id": 56,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "611:0:1"
+                        },
+                        "scope": 77,
+                        "src": "564:92:1",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 75,
+                            "nodeType": "Block",
+                            "src": "707:45:1",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 73,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 69,
+                                            "name": "balanceValue",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 36,
+                                            "src": "712:12:1",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_int256",
+                                                "typeString": "int256"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "commonType": {
+                                                "typeIdentifier": "t_int256",
+                                                "typeString": "int256"
+                                            },
+                                            "id": 72,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "leftExpression": {
+                                                "id": 70,
+                                                "name": "balanceValue",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 36,
+                                                "src": "727:12:1",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_int256",
+                                                    "typeString": "int256"
+                                                }
+                                            },
+                                            "nodeType": "BinaryOperation",
+                                            "operator": "+",
+                                            "rightExpression": {
+                                                "id": 71,
+                                                "name": "amount",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 66,
+                                                "src": "742:6:1",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_int256",
+                                                    "typeString": "int256"
+                                                }
+                                            },
+                                            "src": "727:21:1",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_int256",
+                                                "typeString": "int256"
+                                            }
+                                        },
+                                        "src": "712:36:1",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_int256",
+                                            "typeString": "int256"
+                                        }
+                                    },
+                                    "id": 74,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "712:36:1"
+                                }
+                            ]
+                        },
+                        "functionSelector": "cf86b99f",
+                        "id": 76,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "depositeMyBalance",
+                        "nameLocation": "669:17:1",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 67,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 66,
+                                    "mutability": "mutable",
+                                    "name": "amount",
+                                    "nameLocation": "691:6:1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 76,
+                                    "src": "687:10:1",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_int256",
+                                        "typeString": "int256"
+                                    },
+                                    "typeName": {
+                                        "id": 65,
+                                        "name": "int",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "687:3:1",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_int256",
+                                            "typeString": "int256"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "686:12:1"
+                        },
+                        "returnParameters": {
+                            "id": 68,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "707:0:1"
+                        },
+                        "scope": 77,
+                        "src": "660:92:1",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 78,
+                "src": "134:623:1",
+                "usedErrors": []
+            }
+        ],
+        "src": "33:724:1"
+    },
+    "functionHashes": {
+        "depositeMyBalance(int256)": "cf86b99f",
+        "getBalanceValue()": "81378448",
+        "withdrawMyBalance(int256)": "3087e412"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "78800",
+            "executionCost": "22235",
+            "totalCost": "101035"
+        },
+        "external": {
+            "depositeMyBalance(int256)": "24609",
+            "getBalanceValue()": "2268",
+            "withdrawMyBalance(int256)": "24559"
+        }
+    }
+}
